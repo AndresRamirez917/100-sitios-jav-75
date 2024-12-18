@@ -1,0 +1,67 @@
+//mainheader
+#mainheader, #mainheader-2 {
+    background-size: 100% 100%;
+    .navbar {
+        .logo {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        ul {
+            display: block;
+            text-align: center;
+        }
+        li {
+            text-align: center;
+        }
+        .container {
+            display: block;
+        }
+    }
+    #showcase {
+        width: 100%;
+        .showcase-text {
+         h2 {
+            text-align: left;
+            margin: 0 auto;
+            display: block;
+         }
+         h1 {
+            font-size: 3rem;
+         }
+         p {
+            text-align: left;
+         
+         }
+
+        }
+    }
+}
+
+//gallery
+#gallery {
+    .gallery-grid {
+        display: block;
+    }
+}
+
+//gallery-2
+#gallery-2 {
+    .gallery-2-row {
+        display: block;
+        .gallery2-flex {
+            margin-bottom: 2rem;  
+        }
+    }
+}
+
+//gallerys
+#gallerys {
+    .gallery-flex {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+}

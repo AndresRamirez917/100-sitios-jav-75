@@ -1,0 +1,51 @@
+#mainheader, #mainheader-2 {
+  background-size: 100% 100%;
+}
+#mainheader .navbar .logo, #mainheader-2 .navbar .logo {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+#mainheader .navbar ul, #mainheader-2 .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li, #mainheader-2 .navbar li {
+  text-align: center;
+}
+#mainheader .navbar .container, #mainheader-2 .navbar .container {
+  display: block;
+}
+#mainheader #showcase, #mainheader-2 #showcase {
+  width: 100%;
+}
+#mainheader #showcase .showcase-text h2, #mainheader-2 #showcase .showcase-text h2 {
+  text-align: left;
+  margin: 0 auto;
+  display: block;
+}
+#mainheader #showcase .showcase-text h1, #mainheader-2 #showcase .showcase-text h1 {
+  font-size: 3rem;
+}
+#mainheader #showcase .showcase-text p, #mainheader-2 #showcase .showcase-text p {
+  text-align: left;
+}
+
+#gallery .gallery-grid {
+  display: block;
+}
+
+#gallery-2 .gallery-2-row {
+  display: block;
+}
+#gallery-2 .gallery-2-row .gallery2-flex {
+  margin-bottom: 2rem;
+}
+
+#gallerys .gallery-flex {
+  display: block;
+}
+#gallerys .gallery-flex img {
+  width: 100%;
+}/*# sourceMappingURL=mobile.css.map */
