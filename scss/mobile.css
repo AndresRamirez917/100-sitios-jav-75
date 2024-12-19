@@ -35,6 +35,9 @@
 #gallery .gallery-grid {
   display: block;
 }
+#gallery .gallery-grid .box-1 img, #gallery .gallery-grid .box-2 img, #gallery .gallery-grid .box-3 img, #gallery .gallery-grid .box-4 img, #gallery .gallery-grid .box-5 img {
+  width: 100%;
+}
 
 #gallery-2 .gallery-2-row {
   display: block;

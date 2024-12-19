@@ -43,6 +43,11 @@
 #gallery {
     .gallery-grid {
         display: block;
+        .box-1, .box-2, .box-3, .box-4, .box-5 {
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 
