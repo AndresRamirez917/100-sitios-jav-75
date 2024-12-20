@@ -46,9 +46,9 @@
   margin-bottom: 2rem;
 }
 
-#gallerys .gallery-flex {
+#gallerys .gallery-flex .madre {
   display: block;
 }
-#gallerys .gallery-flex img {
+#gallerys .gallery-flex .madre img {
   width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

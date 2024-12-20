@@ -209,11 +209,20 @@ img {
   text-align: justify;
 }
 
-#gallerys .gallery-flex img {
-  width: 50%;
+#gallerys .gallery-flex .madre {
+  width: 90%;
+  margin: 0 auto;
 }
-#gallerys .gallery-flex p {
+#gallerys .gallery-flex .madre img {
+  width: 35%;
+  height: 55vh;
+  float: left;
+}
+#gallerys .gallery-flex .madre p {
+  width: 60%;
+  float: right;
   line-height: 30px;
+  text-align: justify;
 }
 
 #social {

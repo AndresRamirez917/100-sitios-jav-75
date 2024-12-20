@@ -260,11 +260,20 @@ img {
 //gallerys
 #gallerys {
     .gallery-flex {
-        img {
-            width: 50%;
-        }
-        p {
-            line-height: 30px;
+        .madre {
+            width: 90%;
+            margin: 0 auto;
+            img {
+                width: 35%;
+                height: 55vh;
+                float: left;
+            }
+            p {
+                width: 60%;
+                float: right;
+                line-height: 30px;
+                text-align: justify;
+            }
         }
     }
 }

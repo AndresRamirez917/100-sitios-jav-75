@@ -64,9 +64,11 @@
 //gallerys
 #gallerys {
     .gallery-flex {
-        display: block;
-        img {
-            width: 100%;
+        .madre {
+            display: block;
+            img {
+                width: 100%;
+            }
         }
     }
 }
