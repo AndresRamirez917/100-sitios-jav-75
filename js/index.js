@@ -8,6 +8,8 @@ async function getData() {
     randCoctail.forEach((element, index) => {
         const box = document.createRange().createContextualFragment(`
             
+         
+
             <div class="grid-box box-${linksArr[index]}">
                 <a href="${gallery[index]}.html?img=${encodeURIComponent(element.strDrinkThumb)}" onclick="saveImage('${element.strDrinkThumb}', '${linksArr[index]}')">
                 <img src="${element.strDrinkThumb}" alt="">

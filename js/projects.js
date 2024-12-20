@@ -16,5 +16,5 @@ let imgUrl = params.img ? decodeURIComponent(params.img) : localStorage.getItem(
 if (imgUrl) {
     const imgElement = document.createElement('img');
     imgElement.src = imgUrl;
-    document.querySelector('.madresita').appendChild(imgElement);
+    document.querySelector('.madre').appendChild(imgElement);
 }
