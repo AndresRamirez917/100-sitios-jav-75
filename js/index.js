@@ -28,4 +28,25 @@ function saveImage(imgUrl, page) {
     localStorage.setItem(`savedImage_${page}`, imgUrl);
 } 
 
+
+
+async function getDataGallery() {
+    const result = await fetch('https://rickandmortyapi.com/api/character');
+    const character = await result.json();
+    console.log(character);
+    const randCharacter = character.results.sort(() => 0.5 - Math.random()).slice(0, 6);
+    randCharacter.forEach(element => {
+        const box = document.createRange().createContextualFragment(`
+            
+             <div class="gallery2-flex">
+                    <img src="${element.image}" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex laudantium, nam praesentium ducimus incidunt qui corporis distinctio est excepturi doloremque temporibus quas tempora? Magnam excepturi blanditiis, vitae, consequuntur ea dignissimos repellat ipsum, laboriosam nostrum maxime ex accusantium hic! Cupiditate tempore praesentium accusamus tenetur repellendus ad ratione facilis quidem assumenda? Et.</p>
+                </div>
+            
+            `)
+            const gallery = document.querySelector('.gallery-2-row');
+            gallery.append(box)
+    })
+}
 getData()
+getDataGallery()
