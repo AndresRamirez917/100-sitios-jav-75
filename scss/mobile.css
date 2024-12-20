@@ -50,5 +50,12 @@
   display: block;
 }
 #gallerys .gallery-flex .madre img {
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+#gallerys .gallery-flex .madre p {
+  margin-top: 22rem;
   width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

@@ -67,6 +67,14 @@
         .madre {
             display: block;
             img {
+               position: absolute;
+               margin: 0 auto;
+               text-align: center;
+                width: 80%;
+               
+            }
+            p {
+                margin-top: 22rem;
                 width: 100%;
             }
         }
