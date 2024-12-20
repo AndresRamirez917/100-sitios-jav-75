@@ -233,28 +233,34 @@ img {
 
 //gallery-2 
 #gallery-2 {
-    background: url("/images/background-gallery.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    h2 {
-        color: #fff;
-    }
-    .gallery-2-row {
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-        gap: 30px;
-        margin-bottom: 2rem;
-        .gallery2-flex {
-           p {
-            font-size: small;
-            line-height: 27px;
+
+
+        background: url("/images/background-gallery.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h2 {
             color: #fff;
-            text-align: justify;
-           }
         }
-}
+        .gallery-2-row {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            .gallery2-flex {
+                width: 33%;
+               p {
+                width: 90%;
+                font-size: small;
+                line-height: 27px;
+                color: #fff;
+                text-align: justify;
+                margin-bottom: 2rem;
+               }
+            }
+    }
+    
 }
 
 //gallerys
